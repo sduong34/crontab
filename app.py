@@ -15,7 +15,6 @@ print(cwd)
 current_time = time.time()
 print(current_time)
 
-
 start_time = time.strftime("%Y-%m-%D_%H:%M:%S", time.localtime(current_time))
 print('Program started at: ', start_time)
 
